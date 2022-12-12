@@ -1,0 +1,46 @@
+
+
+header{
+    display: flex;
+    height: 20vh;
+    background-color: #212428;
+    align-items: center;
+    justify-content: space-around;
+}
+header .avt{
+    width: 10%;
+}
+header .avt img{
+    display: block;
+    width: 8rem;
+    border-radius: 50%;
+    border: 5px solid #2e3236;
+}
+header  nav{
+    width: 80%;
+}
+header  nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+header nav ul:hover a{
+    color: #878787;
+}
+header  nav ul li{
+    margin: 0 1%;
+}
+header  nav ul li a{
+    font-size: 1.5rem;
+    color: #c4cfde;
+    transition: all 0.4s;
+}
+
+header  nav ul li:hover a{
+    color: #c4cfde;
+}
+.active-page{
+    color: #ffffff !important;
+    font-weight: bold;
+}

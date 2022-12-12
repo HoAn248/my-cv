@@ -1,0 +1,94 @@
+.banner{
+    display: flex;
+    padding: 4rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner .content{
+    width: 40%;
+}
+.banner .thumbnail{
+    width: 40%;
+    position: relative;
+}
+.banner .thumbnail img{
+    display: block;
+    width: 100%;
+}
+.banner .thumbnail::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    border-radius: 0.5rem;
+}
+.banner .subtitle{
+    font-size: 1.4rem;
+    color: #c4cfde;
+}
+.banner .title{
+    color: #ffffff;
+    font-size: 5rem;
+}
+.banner .title span{
+    color: #ff014f;
+}
+.banner .description{
+    color: #c4cfde;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+.banner .me-and-skill{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .find-me{
+    width: 46%;
+}
+.banner .me-and-skill p{
+    color: #c4cfde;
+    font-size: 1.5rem;
+}
+.banner .me-and-skill ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.banner .me-and-skill ul li{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background:  linear-gradient(145deg, #1e2024, #23272b);    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 0.6rem;
+    transition: all 0.4s;
+}
+.banner .me-and-skill ul li:hover{
+    transform: translateY(-10px);
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+.banner .me-and-skill ul li a i{
+    color: #ffffff;
+    width: 100%;
+    font-size: 2.4rem;
+}
+.banner .my-skills{
+    width: 46%;
+}
+
+hr{
+    border: 0.1px solid #121415;
+}

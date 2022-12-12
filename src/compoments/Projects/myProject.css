@@ -1,0 +1,94 @@
+.my-project{
+    margin: 7rem 0;
+}
+.my-project h2{
+    color: #c4cfde;
+    font-size: 4rem;
+}
+.my-project .title{
+    text-align: center;
+}
+.list-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-projects ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem 10rem;
+    flex-wrap: wrap;
+}
+.list-projects ul li{
+    width: 30rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+    transition: all 0.4s;
+    background:  linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+.list-projects ul li:hover{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+.product-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 3rem 0;
+}
+.product-type p{
+    color: #ff014f;
+    cursor: pointer;
+}
+.product-type i{
+    color: #c4cfde;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.product-type i:hover{
+    color: #ff014f;
+}
+.product-type i span{
+    color: #c4cfde;
+}
+.product-name{
+    color: #c4cfde;
+    font-size: 2.5rem;
+    transition: all 0.4s;
+}
+.product-name:hover{
+    color: #ff014f;
+    cursor: pointer;
+}
+.product-name i{
+    opacity: 0;
+    font-size: 0.1rem;
+    color: #c4cfde;
+    transition: all 0.2s;
+}
+.product-name:hover i{
+    opacity: 1;
+    font-size: 2rem;
+    color: #ff014f;
+}
+.product-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+.product-img img{
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.product-img img:hover{
+    transform: scale(1.2);
+}

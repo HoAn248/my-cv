@@ -1,0 +1,30 @@
+footer{
+    margin: 4rem 0;
+}
+footer .avt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    width: 8rem;
+    height: 8rem;
+    display: block;
+}
+footer a img{
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: 5px solid #2e3236;
+}
+footer h3{
+    color: #a0a8b3;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+footer p{
+    color: #a0a8b3;
+    font-size: 2rem;
+    text-align: center;
+}
