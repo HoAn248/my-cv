@@ -1,0 +1,37 @@
+@media screen and (max-width: 900px) {
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner .thumbnail{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .banner .content{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .banner .me-and-skill{
+        flex-direction: column;
+    }
+    .banner .find-me{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .banner .my-skills{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .banner .title{
+        font-size: 2.5rem;
+    }
+    .banner .me-and-skill ul{
+        flex-direction: column;
+    }
+    .banner .me-and-skill ul li{
+        margin-bottom: 2rem;
+    }
+}

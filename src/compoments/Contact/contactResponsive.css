@@ -1,0 +1,28 @@
+@media screen and (max-width: 900px) {
+    .contact-about{
+        flex-direction: column;
+    }
+    .contact-about .about{
+        width: 70%;
+        margin-bottom: 4rem;
+    }
+    .form-contact{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact h2{
+        font-size: 2rem;
+    }
+    .name-phone{
+        flex-direction: column;
+    }
+    .contact-about .about{
+        width: 90%;
+        margin-bottom: 4rem;
+    }
+    .form-contact{
+        width: 90%;
+    }
+}

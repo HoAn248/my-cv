@@ -6,6 +6,7 @@ import Banner from './compoments/Banner/Banner';
 import Projects from './compoments/Projects/Projects';
 import Contact from './compoments/Contact/Contact';
 import Footer from './compoments/Footer/Footer';
+import BackToTop from './compoments/BackToTop/BackToTop';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
+      <BackToTop></BackToTop>
     </div>
   )
 }

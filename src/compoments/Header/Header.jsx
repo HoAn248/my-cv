@@ -1,17 +1,47 @@
+import React from 'react';
 import './header.css';
+import './headerResponsive.css';
 
 
 export default function Header(){
-    
+    const headerRef = React.useRef()
+    const btnMenuRef = React.useRef()
+    const btnCloseRef = React.useRef()
+    const navMenuRef = React.useRef()
+    const blockCloseRef = React.useRef()
+    React.useEffect(()=>{
+        let headerElement = headerRef.current
+        let btnMenu = btnMenuRef.current
+        let btnClose = btnCloseRef.current
+        let navMenu = navMenuRef.current
+        let blockClose = blockCloseRef.current
+        window.addEventListener('scroll', () => {
+            headerElement.classList.toggle('header-scroll', window.scrollY > 390)
+        })
+        btnMenu.addEventListener('click',()=>{
+            navMenu.className = 'menu-active'
+            blockClose.className = 'active-block'
+        })
+
+        btnClose.addEventListener('click',()=>{
+            navMenu.className = ''
+            blockClose.className = ''
+        })
+
+        blockClose.addEventListener('click',()=>{
+            btnClose.click();
+        })
+    },[])
+
     return(
-        <header>
-            <div class="avt">
+        <header ref={headerRef}>
+            <div className="avt">
                 <img src="./images/avatar.jpg" alt=""></img>
             </div>
-            <nav>
+            <nav ref={navMenuRef}>
                 <ul>
                     <li>
-                        <a href="/" class="active-page">
+                        <a href="/" className="active-page">
                             HOME
                         </a>
                     </li>
@@ -36,12 +66,11 @@ export default function Header(){
                             <option value="en">Tiếng Anh</option>
                         </select>
                     </li>
-                    <li>
-                        <i class="fa-solid fa-moon"></i>
-                        <i class="fa-solid fa-sun"></i>
-                    </li>
+                    <li><i ref={btnCloseRef} id='btn-close' className="fa-solid fa-xmark"></i></li>
                 </ul>
             </nav>
+            <i id='btn-menu' ref={btnMenuRef} className="fa-solid fa-bars"></i>
+            <div id='block' ref={blockCloseRef}></div>
         </header>
     )
 }

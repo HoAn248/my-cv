@@ -7,13 +7,12 @@ export default function Footer() {
   React.useEffect(() => {
     Aos.init({
       duration: 1500,
-      delay: 700,
       once: true
     })
   }, [])
   return (
-    <footer data-aos="fade-up">
-            <div class="avt">
+    <footer data-aos="fade-down" >
+            <div className="avt">
                 <a href="/">
                     <img src="./images/avatar.jpg" alt=""></img>
                 </a>

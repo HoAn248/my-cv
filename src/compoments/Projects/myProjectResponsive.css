@@ -1,0 +1,8 @@
+@media screen and (max-width: 900px) {
+    .list-projects ul{
+        justify-content: center;
+    }
+    .my-project h2{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,26 @@
+.back-to-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: #212428;
+    cursor: pointer;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 50%;
+    transition: all 1s;
+    position: fixed;
+    bottom: 102%;
+    right: 2rem;
+}
+
+.back-to-top-active{
+    bottom: 7rem;
+}
+.back-to-top:hover{
+    background: #1c1e22;
+}
+.back-to-top i{
+    font-size: 2rem;
+    color: #ffffff;
+}
