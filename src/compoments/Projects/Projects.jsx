@@ -1,19 +1,18 @@
 import React from 'react'
 import './myProject.css'
 import './myProjectResponsive.css'
-import Aos from 'aos';
+// import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 export default function Projects() {
-    React.useEffect(() => {
-        Aos.init({
-          duration: 1000,
-          delay: 200,
-          once: true
-        })
-      }, [])
+    // React.useEffect(() => {
+    //     Aos.init({
+    //       duration: 1000,
+    //       once: true
+    //     })
+    //   }, [])
   return (
-    <div className="my-project">
+    <div className="my-project" id='projects'>
             <h2 className="title" data-aos="fade-up">My Project</h2>
             <div className="list-projects" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <ul className="">

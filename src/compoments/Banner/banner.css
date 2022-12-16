@@ -36,7 +36,7 @@
     color: #ffffff;
     font-size: 5rem;
 }
-.banner .title span{
+.banner .title .title-name{
     color: #ff014f;
 }
 .banner .description{

@@ -1,5 +1,5 @@
 .my-project{
-    margin: 7rem 0;
+    padding: 10rem 0 0 0;
 }
 .my-project h2{
     color: #c4cfde;
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5rem 10rem;
+    margin: 5rem 10rem 0 10rem;
     flex-wrap: wrap;
 }
 .list-projects ul li{

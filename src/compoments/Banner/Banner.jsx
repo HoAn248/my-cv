@@ -3,21 +3,33 @@ import './bannerResponsive.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import React from 'react';
+import TypeIt from "typeit-react";
 
 export default function Banner() {
     React.useEffect(() => {
         Aos.init({
-          duration: 1000,
-          delay: 200,
-          once: true
+            duration: 1500,
+            delay: 200,
+            once: true
         })
-      }, [])
-    return(
-        <div className="banner">
+
+    }, [])
+
+
+    return (
+        <div className="banner" id='home'>
             <div className="content" data-aos="fade-right">
                 <p className="subtitle">WELCOME TO MY WORLD</p>
-                <h1 className="title">Hi, I’m <span>Ho An</span>
-                    <br></br>a Developer.
+                <h1 className="title">Hi, I’m <span className='title-name'>Ho An</span>
+                    <br></br><TypeIt
+                        options={{
+                            loop: true
+                        }}
+                        getBeforeInit={(instance) => {
+                            instance.type("a Developer.").pause(750).delete().pause(500).type("ahihi :>");
+                            return instance;
+                        }}
+                    />
                 </h1>
                 <p className="description">I use animation as a third dimension by which to simplify experiences and kuiding
                     thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in
@@ -28,7 +40,7 @@ export default function Banner() {
                         <p>FIND WITH ME</p>
                         <ul>
                             <li>
-                                <a href="/">
+                                <a href="https://www.facebook.com/profile.php?id=100011614929760" target='_blank' rel='noreferrer'>
                                     <i className="fa-brands fa-facebook-f"></i>
                                 </a>
                             </li>
@@ -68,7 +80,7 @@ export default function Banner() {
 
             </div>
 
-            <div className="thumbnail"   data-aos="fade-left">
+            <div className="thumbnail" data-aos="fade-left">
                 <img src="./images/banner.png" alt=""></img>
             </div>
         </div>
