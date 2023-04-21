@@ -15,10 +15,10 @@ export default function Projects() {
                                 <img src="./images/project-1.png" alt=""></img>
                             </div>
                             <div className="product-type">
-                                <p>Development</p>
+                                <p>Make by Ho An</p>
                                 <i className="fa-regular fa-heart"><span></span></i>
                             </div>
-                            <span className="product-name">The services provide for design <i
+                            <span className="product-name">Pet management website <i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span>
                         </a>
                     </li>
@@ -28,10 +28,10 @@ export default function Projects() {
                                 <img src="./images/project-2.png" alt=""></img>
                             </div>
                             <div className="product-type">
-                                <p>Development</p>
+                                <p>Make by Ho An + teams BITC FPT</p>
                                 <i className="fa-regular fa-heart"><span></span></i>
                             </div>
-                            <span className="product-name">The services provide for design <i
+                            <span className="product-name">Gui Xuan Len Ban <i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span>
                         </a>
                     </li>
@@ -41,10 +41,10 @@ export default function Projects() {
                                 <img src="./images/project-3.png" alt=""></img>
                             </div>
                             <div className="product-type">
-                                <p>Development</p>
+                                <p>Make by Ho An</p>
                                 <i className="fa-regular fa-heart"><span></span></i>
                             </div>
-                            <span className="product-name">The services provide for design <i
+                            <span className="product-name">Fruit inventory management <i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span>
                         </a>
                     </li>
@@ -54,10 +54,10 @@ export default function Projects() {
                                 <img src="./images/project-4.png" alt=""></img>
                             </div>
                             <div className="product-type">
-                                <p>Development</p>
+                                <p>Make by Ho An</p>
                                 <i className="fa-regular fa-heart"><span></span></i>
                             </div>
-                            <span className="product-name">The services provide for design <i
+                            <span className="product-name">Bee Music <i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span>
                         </a>
                     </li>
@@ -67,10 +67,10 @@ export default function Projects() {
                                 <img src="./images/project-5.png" alt=""></img>
                             </div>
                             <div className="product-type">
-                                <p>Development</p>
+                                <p>Make by Ho An</p>
                                 <i className="fa-regular fa-heart"><span></span></i>
                             </div>
-                            <span className="product-name">The services provide for design <i
+                            <span className="product-name">Pops UI <i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span>
                         </a>
                     </li>
