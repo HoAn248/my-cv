@@ -50,7 +50,7 @@ export default function Header() {
     return (
         <header ref={headerRef}>
             <div className="avt">
-                <img src="./images/avatar.jpg" alt=""></img>
+                <img src="./images/avatar.png" alt=""></img>
             </div>
             <nav ref={navMenuRef}>
                 <ul >
@@ -61,20 +61,19 @@ export default function Header() {
                         </a>
                     </li>
                     <li>
-                        <a href='#contact' >
+                        <a href='#contact' data-bs-toggle='tab'>
                             CONTACT
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#resume' >
+                            RESUME
                         </a>
                     </li>
                     <li>
                         <a href='#projects' >
                             PROJECTS
                         </a>
-                    </li>
-                    <li>
-                        <select>
-                            <option value="vi">Tiếng Việt</option>
-                            <option value="en">Tiếng Anh</option>
-                        </select>
                     </li>
                     <li><i ref={btnCloseRef} id='btn-close' className="fa-solid fa-xmark"></i></li>
                 </ul>

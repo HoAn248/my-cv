@@ -7,6 +7,8 @@ import Projects from './compoments/Projects/Projects';
 import Contact from './compoments/Contact/Contact';
 import Footer from './compoments/Footer/Footer';
 import BackToTop from './compoments/BackToTop/BackToTop';
+import Resume from './compoments/Resume/Resume';
+
 
 function App() {
   
@@ -14,8 +16,13 @@ function App() {
     <div className="container">
       <Header></Header>
       <Banner></Banner>
+      <hr></hr>
       <Projects></Projects>
+      <hr></hr>
+      <Resume></Resume>
+      <hr></hr>
       <Contact></Contact>
+      <hr></hr>
       <Footer></Footer>
       <BackToTop></BackToTop>
     </div>

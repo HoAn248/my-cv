@@ -1,0 +1,81 @@
+#resume h2{
+    font-size: 4rem;
+    color: #c4cfde;
+    text-align: center;
+    padding: 5rem 0;
+}
+#resume .list-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resume .list-tab ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    border-radius: 1rem;
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    
+}
+#resume .list-tab ul li{
+    padding: 3rem 3rem;
+    width: 30rem;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.4s;
+    background: transparent;
+    font-weight: 900;
+}
+#resume .list-tab ul li:hover{
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+}
+
+#resume .list-tab ul li:hover a{
+    color: #ff014f;
+}
+.acctive-tab{
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+}
+.acctive-tab a{
+    color: #ff014f;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills ul{
+    width: 50%;
+}
+.skills ul li{
+    padding: 1.4rem 0;
+}
+.skills .title{
+    display: flex;
+    justify-content: space-between;
+    color: #c3cedd;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.skills .range-skill{
+    margin-top: 1rem;
+    height: 0.8rem;
+    background: #212428;
+    box-shadow: inset 8px 8px 16px rgb(0 0 0 / 46%), inset -8px -8px 16px rgb(56 62 69 / 46%);
+    border-radius: 1rem;
+}
+.skills .range-skill div{
+    transition: all 2s;
+    width: 0%;
+    height: 100%;
+    border-radius: 1rem;
+    background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+}

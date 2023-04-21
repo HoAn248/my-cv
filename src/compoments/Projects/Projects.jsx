@@ -1,68 +1,82 @@
 import React from 'react'
 import './myProject.css'
 import './myProjectResponsive.css'
-// import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 export default function Projects() {
-    // React.useEffect(() => {
-    //     Aos.init({
-    //       duration: 1000,
-    //       once: true
-    //     })
-    //   }, [])
-  return (
-    <div className="my-project" id='projects'>
-            <h2 className="title" data-aos="fade-up">My Project</h2>
+    return (
+        <div className="my-project" id='projects'>
+            <h2 className="title" data-aos="fade-up">My Projects</h2>
             <div className="list-projects" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <ul className="">
-                    <li data-aos="fade-up">
-                        <div className="product-img">
-                            <img src="./images/project-1.jpg" alt=""></img>
-                        </div>
-                        <div className="product-type">
-                            <p>Development</p>
-                            <i className="fa-regular fa-heart"><span> 600</span></i>
-                        </div>
-                        <span className="product-name">The services provide for design <i
+                    <li >
+                        <a href="https://thu-cung.onrender.com" target='_blank' rel='noreferrer'>
+                            <div className="product-img">
+                                <img src="./images/project-1.png" alt=""></img>
+                            </div>
+                            <div className="product-type">
+                                <p>Development</p>
+                                <i className="fa-regular fa-heart"><span></span></i>
+                            </div>
+                            <span className="product-name">The services provide for design <i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </a>
                     </li>
-                    <li data-aos="fade-up">
-                        <div className="product-img">
-                            <img src="./images/project-2.jpg" alt=""></img>
-                        </div>
-                        <div className="product-type">
-                            <p>Development</p>
-                            <i className="fa-regular fa-heart"><span> 600</span></i>
-                        </div>
-                        <span className="product-name">The services provide for design <i
+                    <li >
+                        <a href="https://gui-xuan-len-ban.vercel.app" target='_blank' rel='noreferrer'>
+                            <div className="product-img">
+                                <img src="./images/project-2.png" alt=""></img>
+                            </div>
+                            <div className="product-type">
+                                <p>Development</p>
+                                <i className="fa-regular fa-heart"><span></span></i>
+                            </div>
+                            <span className="product-name">The services provide for design <i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </a>
                     </li>
-                    <li data-aos="fade-up">
-                        <div className="product-img">
-                            <img src="./images/project-3.jpg" alt=""></img>
-                        </div>
-                        <div className="product-type">
-                            <p>Development</p>
-                            <i className="fa-regular fa-heart"><span> 600</span></i>
-                        </div>
-                        <span className="product-name">The services provide for design <i
+                    <li >
+                        <a href="https://quoc-thang-fruits-front.vercel.app" target='_blank' rel='noreferrer'>
+                            <div className="product-img">
+                                <img src="./images/project-3.png" alt=""></img>
+                            </div>
+                            <div className="product-type">
+                                <p>Development</p>
+                                <i className="fa-regular fa-heart"><span></span></i>
+                            </div>
+                            <span className="product-name">The services provide for design <i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </a>
                     </li>
-                    <li data-aos="fade-up">
-                        <div className="product-img">
-                            <img src="./images/project-4.jpg" alt=""></img>
-                        </div>
-                        <div className="product-type">
-                            <p>Development</p>
-                            <i className="fa-regular fa-heart"><span> 600</span></i>
-                        </div>
-                        <span className="product-name">The services provide for design <i
+                    <li >
+                        <a href="https://hoan248.github.io/Music" target='_blank' rel='noreferrer'>
+                            <div className="product-img">
+                                <img src="./images/project-4.png" alt=""></img>
+                            </div>
+                            <div className="product-type">
+                                <p>Development</p>
+                                <i className="fa-regular fa-heart"><span></span></i>
+                            </div>
+                            <span className="product-name">The services provide for design <i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="https://hoan248.github.io/Pops" target='_blank' rel='noreferrer'>
+                            <div className="product-img">
+                                <img src="./images/project-5.png" alt=""></img>
+                            </div>
+                            <div className="product-type">
+                                <p>Development</p>
+                                <i className="fa-regular fa-heart"><span></span></i>
+                            </div>
+                            <span className="product-name">The services provide for design <i
+                                className="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </a>
                     </li>
                 </ul>
             </div>
 
         </div>
-  )
+    )
 }

@@ -14,6 +14,8 @@
 }
 .banner .thumbnail img{
     display: block;
+    /* transform: scaleX(-1); */
+    filter: grayscale(25%);
     width: 100%;
 }
 .banner .thumbnail::before{
@@ -76,19 +78,22 @@
     border-radius: 0.6rem;
     transition: all 0.4s;
 }
+.banner .me-and-skill ul li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner .me-and-skill ul li:hover{
     transform: translateY(-10px);
     background: linear-gradient(to right bottom, #212428, #16181c);
 }
 .banner .me-and-skill ul li a i{
     color: #ffffff;
-    width: 100%;
     font-size: 2.4rem;
 }
 .banner .my-skills{
     width: 46%;
 }
 
-hr{
-    border: 0.1px solid #121415;
-}

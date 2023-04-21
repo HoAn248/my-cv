@@ -19,21 +19,20 @@ export default function Banner() {
     return (
         <div className="banner" id='home'>
             <div className="content" data-aos="fade-right">
-                <p className="subtitle">WELCOME TO MY WORLD</p>
+                <p className="subtitle">WELCOME TO MY PROJECTS</p>
                 <h1 className="title">Hi, I’m <span className='title-name'>Ho An</span>
                     <br></br><TypeIt
                         options={{
-                            loop: true
+                            loop: true,
+                            waitUntilVisible: true,
                         }}
                         getBeforeInit={(instance) => {
-                            instance.type("a Developer.").pause(750).delete().pause(500).type("ahihi :>");
+                            instance.type("a Developer.").pause(750).delete().pause(500).type("never give up.");
                             return instance;
                         }}
                     />
                 </h1>
-                <p className="description">I use animation as a third dimension by which to simplify experiences and kuiding
-                    thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in
-                    ways that.</p>
+                <p className="description">I always want to tell everyone that we are just not able to do it yet, not unable to do it. Let's try our best to achieve the goals we set.</p>
 
                 <div className="me-and-skill">
                     <div className="find-me">
@@ -45,7 +44,7 @@ export default function Banner() {
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://www.instagram.com/hoan24082002/" target='_blank' rel='noreferrer'>
                                     <i className="fa-brands fa-instagram"></i>
                                 </a>
                             </li>
@@ -60,17 +59,17 @@ export default function Banner() {
                         <p>BEST SKILL ON</p>
                         <ul>
                             <li>
-                                <a href="/">
+                                <a href="https://react.dev/" target='_blank' rel='noreferrer'>
                                     <i className="fa-brands fa-react"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://www.javascript.com/" target='_blank' rel='noreferrer'>
                                     <i className="fa-brands fa-node-js"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://www.javascript.com/" target='_blank' rel='noreferrer'>
                                     <i className="fa-brands fa-js"></i>
                                 </a>
                             </li>

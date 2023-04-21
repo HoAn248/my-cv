@@ -1,17 +1,9 @@
 import React from 'react'
 import './contact.css'
 import './contactResponsive.css'
-// import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 export default function Contact() {
-    // React.useEffect(() => {
-    //     Aos.init({
-    //       duration: 1000,
-    //       delay: 1000,
-    //       once: true
-    //     })
-    //   }, [])
   return (
     <div id='contact' className="contact" data-aos="fade-up">
             <h2>Contact With Me</h2>
