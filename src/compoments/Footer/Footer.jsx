@@ -7,7 +7,7 @@ export default function Footer() {
     <footer data-aos="fade-up" >
             <div className="avt">
                 <a href="/">
-                    <img src="./images/avatar.jpg" alt=""></img>
+                    <img src="./images/avatar.png" alt=""></img>
                 </a>
             </div>
             <h3>Ho An</h3>
